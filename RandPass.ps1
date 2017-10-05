@@ -1,4 +1,4 @@
-<#Password Generator
+<#RandPass
 Outputs a random password guaranteed to contain one char from each of the defined pools.
 Created by: Erick Mcghee
             mcgheee@etsu.edu
