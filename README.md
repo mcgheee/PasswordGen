@@ -5,11 +5,6 @@ PowerShell script to generate passwords from predefined character pools.
 
 - The pools omit characters that can lead to readability issues, or that can be problematic for applications.
 
->Notably, the following characters are omitted:
->  ```
->  i I l 1 O 0
->  ```
-
 Pre-Defined Character Pools
 ---------------------------
 Character pools are defined by four arrays, and cotain the listed characters by default. Each generated password will contain at least one character from each pool.
@@ -30,7 +25,11 @@ Character pools are defined by four arrays, and cotain the listed characters by 
   ```
   ! ^ - _ + : ? . ~
   ```
-  
+>Notable Omitted Characters:
+>  ```
+>  i I l 1 O 0
+>  ```
+
   Length
   ------
   
