@@ -1,4 +1,4 @@
-# PasswordGen
+# RandPass
 PowerShell script to generate passwords from predefined character pools.
 
 - Passwords are returned as a plaintext string.
